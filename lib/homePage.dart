@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
     password = password.trim();
     flag = true;
 
-    String url = "http://fisatian1.herokuapp.com/profile";
+    String url = "https://fisatian1.herokuapp.com/profile";
     var headers = {"Accept": "application/json"};
     var body = {'username': username, 'password': password};
 
